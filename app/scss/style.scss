@@ -1,0 +1,35 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.header {
+}
+
+.header_slider {
+  &-item {
+    height: 100vh;
+    background-image: url(/app/images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.slider-item_info {
+  position: absolute;
+  right: 80px;
+  bottom: 116px;
+  text-align: right;
+  color: #fff;
+}
+
+.slider-item_info_title {
+  font-size: 80px;
+  line-height: 86px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+}
+
+@import "media";

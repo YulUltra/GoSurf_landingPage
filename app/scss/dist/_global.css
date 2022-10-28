@@ -1,0 +1,35 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.suptitle-left {
+  position: absolute;
+  height: 32px;
+  left: 89.31%;
+  right: 5.07%;
+  top: calc(50% - 32px / 2 - 3373.5px);
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 7.33333px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  padding-left: 103px;
+  position: relative;
+  display: inline-block;
+}
+.suptitle-left::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #ffffff;
+  left: 0;
+  top: 50%;
+}
